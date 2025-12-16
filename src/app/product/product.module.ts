@@ -4,6 +4,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatSnackBarModule} from '@angular/material/snack-bar'
 import {MatInputModule} from '@angular/material/input'
+import {MatSelectModule} from '@angular/material/select'
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 
@@ -15,7 +16,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatCardModule,
     MatSnackBarModule,
     FlexLayoutModule,
-    MatInputModule
+    MatInputModule,
+    MatSelectModule
   ]
 })
 export class ProductModule { }
